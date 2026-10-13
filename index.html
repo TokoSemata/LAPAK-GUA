@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rekomendasi Belanja</title>
+  <meta name="description" content="Kumpulan produk pilihan yang saya rekomendasikan.">
+  <meta name="theme-color" content="#14211D">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="profil">
+    <div id="foto"></div>
+    <h1 id="nama"></h1>
+    <p id="deskripsi"></p>
+    <nav id="kontak" class="kontak" aria-label="Kontak"></nav>
+  </header>
+
+  <main>
+    <div id="kategori" class="chips" aria-label="Kategori produk"></div>
+    <div id="grid" class="grid"></div>
+    <p id="kosong" class="kosong" hidden>Belum ada produk di kategori ini.</p>
+  </main>
+
+  <footer id="catatan" class="catatan"></footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
