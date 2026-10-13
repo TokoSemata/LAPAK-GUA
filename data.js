@@ -5,11 +5,11 @@
 
 /* 1) PROFIL ---------------------------------------------------------- */
 const PROFIL = {
-  nama: "Nama Kamu",
+  nama: "Eday",
   deskripsi: "Saya pilihkan produk bagus dengan harga masuk akal. Cek rekomendasi favorit saya di bawah.",
   foto: "images/profil.jpg",          // taruh fotomu di folder images/
   kontak: [                           // boleh dihapus / ditambah
-    { label: "WhatsApp",  url: "https://wa.me/6281234567890" },
+    { label: "WhatsApp",  url: "https://wa.me/6289521250002" },
     { label: "Instagram", url: "https://instagram.com/usernamekamu" },
     { label: "TikTok",    url: "https://tiktok.com/@usernamekamu" }
   ],
@@ -27,7 +27,7 @@ const PROFIL = {
    - tombol   : (opsional) teks tombol, bawaannya "Beli Sekarang"
    ------------------------------------------------------------------- */
 const PRODUK = [
-  { nama: "Sneakers Putih Casual Unisex",   harga: 189000, foto: "images/produk-1.jpg", kategori: "Fashion",       link: "https://shopee.co.id/" },
+  { nama: "Sneakers Putih Casual Unisex",   harga: 189000, foto: "images/produk-1.jpg", kategori: "Fashion",       link: "https://s.shopee.co.id/W7O32qUL1" },
   { nama: "Tas Selempang Anti Air",         harga: 129000, foto: "images/produk-2.jpg", kategori: "Fashion",       link: "https://shopee.co.id/" },
   { nama: "Earphone Bluetooth TWS",         harga: 99000,  foto: "images/produk-3.jpg", kategori: "Elektronik",    link: "https://shopee.co.id/" },
   { nama: "Powerbank 10.000 mAh Slim",      harga: 145000, foto: "images/produk-4.jpg", kategori: "Elektronik",    link: "https://shopee.co.id/" },
